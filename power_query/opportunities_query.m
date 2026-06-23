@@ -4,8 +4,8 @@
         null,
         true
     ),
-    DataSourceHoneywell_Table = Source{[Item="DataSourceHoneywell",Kind="Table"]}[Data],
-    #"Removed Columns" = Table.RemoveColumns(DataSourceHoneywell_Table,{"Amount USD"}),
+    DataSource_Table = Source{[Item="DataSourceHoneywell",Kind="Table"]}[Data],
+    #"Removed Columns" = Table.RemoveColumns(DataSource_Table,{"Amount USD"}),
 
     // Rename columns 
     #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{
