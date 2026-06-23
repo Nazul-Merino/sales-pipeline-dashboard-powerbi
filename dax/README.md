@@ -179,7 +179,7 @@ Amount_USD_Row =
     / LOOKUPVALUE(
         'Exchange_Rate_table'[Exchange_Rate],
         'Exchange_Rate_table'[Opportunity_Currency],
-        'DataSourceHoneywell'[Amount_Currency]
+        'DataSource'[Amount_Currency]
     )
 ```
 
