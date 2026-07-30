@@ -47,7 +47,11 @@ Together, these visualizations guide decision-makers from current pipeline perfo
 
 ### 3_Architecture_Diagram.png
 
-This architecture diagram illustrates the end-to-end analytics workflow, from CRM opportunity data ingestion and preprocessing with Power Query to data modeling with DAX and advanced analytics using Python within Power BI. The solution integrates descriptive analytics, revenue forecasting, regional volatility analysis, and FX-driven pricing risk assessment into a two-page executive dashboard that supports sales pipeline monitoring and commercial decision-making.
+This architecture diagram illustrates the end-to-end analytics workflow implemented in the project, from CRM opportunity data ingestion to executive dashboard delivery. Raw opportunity data are first imported into Power BI and transformed using Power Query for data cleaning, normalization, and preparation. The processed data are then modeled with DAX to support business calculations and KPI generation.
+
+Advanced analytics are performed using embedded Python scripts, including revenue forecasting with confidence intervals, regional revenue volatility analysis, and FX-driven pricing risk assessment. These analytical outputs are integrated into a two-page executive dashboard that combines descriptive and predictive analytics, enabling stakeholders to monitor pipeline performance, evaluate future revenue scenarios, identify regional demand variability, and assess pricing exposure caused by foreign exchange fluctuations.
+
+The architecture demonstrates how Power Query, DAX, and Python can be integrated within Power BI to build a scalable business intelligence solution that supports data-driven commercial decision-making.
 
 ---
 
