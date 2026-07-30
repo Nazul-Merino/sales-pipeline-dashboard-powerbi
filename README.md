@@ -1,4 +1,4 @@
-# Opportunity pipeline and performance
+# Sales Pipeline Analytics & Forecasting
 
 ## Problem
 
