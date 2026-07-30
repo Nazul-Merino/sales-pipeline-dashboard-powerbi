@@ -1,6 +1,6 @@
 # Screenshots
 
-This folder contains screenshots of the two dashboard pages developed in Power BI.
+This folder contains screenshots of the two dashboard pages developed in Power BI, along with the solution architecture diagram.
 
 ## Files
 
@@ -42,6 +42,14 @@ Key elements include:
 * FX-driven pricing risk assessment by region.
 
 Together, these visualizations guide decision-makers from current pipeline performance toward future outlook and potential commercial risks.
+
+---
+
+### 3_Architecture_Diagram.png
+
+This architecture diagram illustrates the end-to-end analytics workflow, from CRM opportunity data ingestion and preprocessing with Power Query to data modeling with DAX and advanced analytics using Python within Power BI. The solution integrates descriptive analytics, revenue forecasting, regional volatility analysis, and FX-driven pricing risk assessment into a two-page executive dashboard that supports sales pipeline monitoring and commercial decision-making.
+
+---
 
 ## Dashboard Design Philosophy
 
