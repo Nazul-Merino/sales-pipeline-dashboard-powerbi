@@ -1,4 +1,4 @@
-# Sales Pipeline Dashboard
+# Opportunity pipeline and performance
 
 ## Problem
 
